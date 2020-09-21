@@ -3,7 +3,7 @@
 
 
     <corners android:radius="100dp" />
-    <solid android:color="#84E2EC" />
+    <solid android:color="@color/colorAccent" />
 
 
 </shape>

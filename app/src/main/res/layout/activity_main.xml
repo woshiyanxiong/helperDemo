@@ -10,12 +10,30 @@
         android:id="@+id/text"
         android:layout_width="222dp"
         android:layout_height="40dp"
-        android:text="针对10系统隐藏图标"
+        android:text="这是隐藏键盘调转的页面"
         android:gravity="center"
         android:background="@drawable/base_sss"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="40dp"
+            android:text="事件传递">
+
+        </TextView>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

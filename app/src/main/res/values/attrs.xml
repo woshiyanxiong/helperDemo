@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="WTEXTView">
+<!--        默认是否展开-->
+        <attr name="unfold" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
